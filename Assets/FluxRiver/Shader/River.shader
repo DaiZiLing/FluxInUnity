@@ -64,9 +64,6 @@ Shader "River"
 
         [Header(Flow Map Parameters)]
 
-        [Title]
-        _FlowMap_Title ("Flowmap", Float) = 0
-
         [NoScaleOffset]_RiverFlowMap ("Flow Map", 2D) = "white" {}
         _RiverFlowMapStr("Strength", Range(0, 1)) = 1
         _RiverFlowMapTime("Time", Range(-200, 200)) = 1
