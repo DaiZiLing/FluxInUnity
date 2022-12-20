@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: River
+  m_Shader: {fileID: 4800000, guid: d04b04b836ce3d1409304124f122926f, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 246494c70f252384bbbefb38999cf4c8, type: 3}
+        m_Scale: {x: 6, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _CausticMap:
+        m_Texture: {fileID: 2800000, guid: 9608b1feeb205ab45882d170c84aa2a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: 9608b1feeb205ab45882d170c84aa2a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: f5a7fca3aa4d0e440b1480ae3f06f6aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RiverBaseMap:
+        m_Texture: {fileID: 2800000, guid: 0d0dad1667ad1bb4daf2964428c149c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RiverCustomCubemap:
+        m_Texture: {fileID: 8900000, guid: 6a21cba02f2073540b14c8a6fcb80627, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RiverDetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RiverFlowMap:
+        m_Texture: {fileID: 2800000, guid: 5228297f06ee6dc47a9b8429b8b2b4e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RiverNormalMap:
+        m_Texture: {fileID: 2800000, guid: 096a2c39daacb9143ba7277d4c289226, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RiverTurbulenceMap:
+        m_Texture: {fileID: 2800000, guid: 0648202bee79bb54798071131cc6be91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AOTint: 1
+    - _ATEdgeContrast: 1.3
+    - _ATHexSize: 9
+    - _ATScaleMax: 0.55
+    - _ATScaleMin: 0.8
+    - _AbsorptionC: 1.65
+    - _AlphaClipping: 0
+    - _AlphaCutoff: 0.5
+    - _BlendMode: 0
+    - _BumpScale: 1
+    - _CastShadows: 1
+    - _CausticDensity_X: 0.2
+    - _CausticDensity_Y: 0.993
+    - _CausticNormal: 0.25
+    - _CausticSpeed: 0.227
+    - _CausticStart: 2.59
+    - _Cull: 2
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FeatureBlock_LIghtCookie: 0
+    - _FeaturesBlock_CapsuleAO: 0
+    - _FlowMap_Title: 0
+    - _GUIStencilIndex: -1
+    - _HelpBox_CapsuleAO: 0
+    - _MetallicTint: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RefleFresnelPower: 6
+    - _RiverAbsorption0_Num: 1.82
+    - _RiverCubeSSPRLerp: 0.5
+    - _RiverDepthMulti: 34.1
+    - _RiverDetailNormalStr: 1
+    - _RiverDetailNormalTile: 1
+    - _RiverDirectShadow: 1.334
+    - _RiverFlowMapStr: 0.5
+    - _RiverFlowMapTime: -100
+    - _RiverFoamPower: 2.29
+    - _RiverFoamSpeed: 1
+    - _RiverFoamStr: 7.23
+    - _RiverIndirectShadow: 0.382
+    - _RiverIndirectStr: 0.2
+    - _RiverNormalDistantFade: 0
+    - _RiverNormalStr: 1
+    - _RiverNormalTileX: 2
+    - _RiverNormalTileY: 2
+    - _RiverPowerLevel: 1.12
+    - _RiverReflectionAdd: 1
+    - _RiverRefractionLevel: 8
+    - _RiverSSPRShadow: 0.192
+    - _RiverSSSMulti: 1
+    - _RiverSSSShadow: 0.49
+    - _RiverSSSShadow2: 0.75
+    - _RiverSSSShadow3: 0.266
+    - _RiverSineAmp: 4
+    - _RiverSineLength: 1000
+    - _RiverSineTime: 2
+    - _RiverSmothness: 0.98
+    - _RiverSmothnessStr: 15
+    - _RiverTileX: 5
+    - _RiverTileY: 5
+    - _RiverTurbulenceStr: 1
+    - _RiverTurbulenceTime: -100
+    - _RoughnessTint: 1
+    - _SSPRAdd: 1
+    - _ShadowAlphaClipping: 0
+    - _ShadowAlphaCutoff: 0.5
+    - _ShadowCull: 2
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StencilOption: 0
+    - _StencilRef: 1
+    - _StencilShaderMode: 1
+    - _StencilWriteMask: 51
+    - _Surface: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AlbedoTint: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+    - _CausticColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CookieColor: {r: 0.21779987, g: 0.23556775, b: 0.26415086, a: 0}
+    - _EmissionTint: {r: 0, g: 0, b: 0, a: 0}
+    - _RiverAbsorption0: {r: 1, g: 1, b: 1, a: 1}
+    - _RiverAbsorption1: {r: 0.5985523, g: 0.6037736, b: 0.5724457, a: 1}
+    - _RiverScattering0: {r: 0, g: 0, b: 0, a: 1}
+    - _RiverScattering1: {r: 0.05660379, g: 0.056603786, b: 0.0013349948, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &4979162181340284254
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
